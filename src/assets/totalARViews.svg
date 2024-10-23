@@ -1,0 +1,68 @@
+ <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          d="M2 9V6.5C2 4.01 4.01 2 6.5 2H9"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M15 2H17.5C19.99 2 22 4.01 22 6.5V9"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M22 16V17.5C22 19.99 19.99 22 17.5 22H16"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M9 22H6.5C4.01 22 2 19.99 2 17.5V15"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+
+                        <foreignObject x="5" y="5" width="14" height="19">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            viewBox="0 0 14 14"
+                            fill="none"
+                          >
+                            <path
+                              d="M1.45996 4.26367L6.75995 7.33367L12.02 4.28367"
+                              stroke="white"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M6.75977 12.7737V7.32373"
+                              stroke="white"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M5.52002 1.29376L2.32001 3.07376C1.60001 3.47376 1 4.48376 1 5.31376V8.70376C1 9.53376 1.59001 10.5438 2.32001 10.9438L5.52002 12.7238C6.20002 13.1038 7.32001 13.1038 8.01001 12.7238L11.21 10.9438C11.93 10.5438 12.53 9.53376 12.53 8.70376V5.30377C12.53 4.47377 11.94 3.46376 11.21 3.06376L8.01001 1.28376C7.32001 0.903761 6.20002 0.903763 5.52002 1.29376Z"
+                              stroke="white"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </foreignObject>
+                      </svg>
