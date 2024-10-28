@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="210" viewBox="0 0 210 210" fill="none">
+  <!-- Outer shadowed circle -->
+  <g filter="url(#filter0_d_1033_3966)">
+    <circle cx="105.3" cy="74.6" r="84" fill="var(--Background-Default-Default, #FFF)" />
+  </g>
+
+  <!-- Middle stroked circle -->
+  <circle opacity="0.05" cx="105.3" cy="74.6"  r="73.8384" stroke="#454459" stroke-width="1.65657" />
+  
+  <!-- Inner gradient-filled circle -->
+  <circle opacity="0.05" cx="105.3" cy="74.6"  r="58.0488" fill="url(#paint0_linear_1033_3968)" />
+
+  <!-- Filter and Gradient Definitions -->
+  <defs>
+    <filter id="filter0_d_1033_3966" x="10" y="0" width="210" height="210" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="4.141" stdDeviation="10.3535" flood-opacity="0.10" />
+    </filter>
+    <linearGradient id="paint0_linear_1033_3968" x1="0.951172" y1="11.9804" x2="110.083" y2="117.049" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#244ACE" />
+      <stop offset="1" stop-color="#7924CE" />
+    </linearGradient>
+  </defs>
+</svg>

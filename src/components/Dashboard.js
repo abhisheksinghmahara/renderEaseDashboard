@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles.module.css";
-// import downloadsymbol from '../assets/downloadsymbol.svg';
 import RefineReport from "./RefineReport";
 import AnalyticsCont from "./AnalyticsCont";
 import CurrentReport from "./CurrentReport";

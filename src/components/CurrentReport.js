@@ -23,7 +23,7 @@ const cardData = [
     altText: "Total 3D Views",
     num: 39,
     title: "Total 3D Views",
-    showCaution: false,
+    showCaution: true,
   },
   {
     id: 3,
