@@ -67,7 +67,7 @@ const RefineReport = () => {
           <label>By Date Range</label>
           <div className={styles.dateRange}>
             {isEditing ? (
-              <p>
+              <p  className={styles.dateRangeBefore}>
                 <input
                   type="date"
                   id="start-date"
@@ -91,10 +91,13 @@ const RefineReport = () => {
                 />
               </p>
             ) : (
-              <p className={styles.dateRange}>
-                {`${formatDate(startDate)} - ${formatDate(endDate)}`}
+              <p  className={styles.dateRangeAfter} >
+                <span>
 
-                <button onClick={handleEditClick}>
+                {`${formatDate(startDate)} - ${formatDate(endDate)}`}
+                </span>
+
+                <button className={styles.editdateBtn} onClick={handleEditClick}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"

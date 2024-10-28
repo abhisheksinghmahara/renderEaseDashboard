@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "../styles.module.css";
 import tabImg from "../assets/tabImg.jpg";
+import DonutGraph from "./DonutGraph";
+import LineGraph from "./LIneGraph";
+import BarGraph from "./BarGraph";
 
 const Graphs = () => {
   return (
@@ -13,7 +16,7 @@ const Graphs = () => {
           </div>
           <div className={styles.cardAContent}>
             <div className={styles.cardAImgDiv}>
-              <img src={tabImg} alt="mobile" />
+              <img className={styles.cardAImgTab} src={tabImg} alt="mobile" />
             </div>
             <div className={styles.cardAInfoDiv}>
               <p className={styles.cardAInfoHead}>
@@ -54,17 +57,23 @@ const Graphs = () => {
           </div>
         </div>
         {/* card B */}
-        <div className={styles.cardB}>
+        <DonutGraph/> 
+
+        {/* <div className={styles.cardB}>
           <div className={styles.cardAHeading}>
             3D Views by Device Category :{" "}
           </div>
-          <div className={styles.cardAContent}>Frame for Graph B</div>
-        </div>
+          <div className={styles.cardAContent}>
+            <div className={styles.donutGraph}>Donut Graph</div>
+            <div className={styles.}>Donut Graph</div>
+            </div>
+        </div> */}
       </div>
-      <div className={styles.cardPair}>
         {/* card C  */}
-
-        <div className={styles.cardC}>
+      <div className={styles.cardPair}>
+        <LineGraph/>
+         
+        {/* <div className={styles.cardC}>
           <div className={styles.cardCHead}>
             <span className={styles.cardAHeading}>Total AR Views :</span>
             <span>
@@ -76,10 +85,10 @@ const Graphs = () => {
             </span>
           </div>
           <div className={styles.cardAContent}>Frame for Graph C</div>
-        </div>
+        </div> */}
         {/* card D  */}
-
-        <div className={styles.cardC}>
+         <BarGraph/>
+        {/* <div className={styles.cardC}>
           <div className={styles.cardCHead}>
             <span className={styles.cardAHeading}>Total 3D Views :</span>
             <span>
@@ -91,7 +100,7 @@ const Graphs = () => {
             </span>
           </div>
           <div className={styles.cardAContent}>Frame for Graph D</div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
